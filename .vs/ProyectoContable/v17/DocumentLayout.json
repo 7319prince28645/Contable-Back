@@ -1,0 +1,1076 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\enterprise\\commands\\enterprisecommandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\enterprise\\commands\\enterprisecommandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\user\\commands\\usercommandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\user\\commands\\usercommandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\enterprise\\queries\\enterprisequeriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\enterprise\\queries\\enterprisequeriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\user\\queries\\userqueriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\user\\queries\\userqueriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\services\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\services\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|solutionrelative:contable.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.infrastructure\\persistence\\contextcontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|solutionrelative:contable.infrastructure\\persistence\\contextcontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\services\\interfaces\\persistence\\userrepository\\iuserqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\services\\interfaces\\persistence\\userrepository\\iuserqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\services\\interfaces\\persistence\\userrepository\\iusercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\services\\interfaces\\persistence\\userrepository\\iusercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.infrastructure\\persistence\\repository\\userrepository\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|solutionrelative:contable.infrastructure\\persistence\\repository\\userrepository\\userqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.infrastructure\\persistence\\repository\\userrepository\\usercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|solutionrelative:contable.infrastructure\\persistence\\repository\\userrepository\\usercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\users\\queries\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\users\\queries\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\user\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\contable.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\contable.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\add\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\add\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\updatebyone\\updatebyonecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\updatebyone\\updatebyonecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\updatebyone\\updatebyonecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\updatebyone\\updatebyonecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\updatebyone\\updatebyonecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\updatebyone\\updatebyonecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\update\\updatebyidcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\update\\updatebyidcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\update\\updatebyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\update\\updatebyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\users\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\users\\authenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\commom\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\commom\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\update\\updatebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\update\\updatebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\delete\\deletebyidcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\delete\\deletebyidcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\add\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\add\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\users\\commands\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\users\\commands\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\users\\commands\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\users\\commands\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\delete\\deletebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\delete\\deletebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\services\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\services\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\delete\\deletebyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\delete\\deletebyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\common\\behaviors\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\common\\behaviors\\validationbehaviors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\command\\add\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\command\\add\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\statementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\statementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.infrastructure\\contable.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90046745-CC57-4446-BE05-131DE6B44E6F}|Contable.Infrastructure\\Contable.Infrastructure.csproj|solutionrelative:contable.infrastructure\\contable.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\contable.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\contable.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\contable.contractx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\contable.contractx.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\query\\getid\\getbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\query\\getid\\getbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\query\\login\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\query\\login\\loginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.application\\authentication\\query\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24F30D6-61B9-4624-9CBD-5705D868656B}|Contable.Application\\Contable.Application.csproj|solutionrelative:contable.application\\authentication\\query\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\datetaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\datetaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\entitiescontroller\\regimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\entitiescontroller\\regimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\entitiescontroller\\employeescompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\entitiescontroller\\employeescompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\entitiescontroller\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\entitiescontroller\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.api\\controllers\\entitiescontroller\\adresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF07DF1-8148-42D3-8B25-6E3D56059B98}|Contable.Api\\Contable.Api.csproj|solutionrelative:contable.api\\controllers\\entitiescontroller\\adresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\datetaxreturn\\datetaxreturns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\datetaxreturn\\datetaxreturns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\transaction\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\transaction\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\enterprise\\enterprises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\enterprise\\enterprises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\task\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\task\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\statement\\statements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\statement\\statements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\payment\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\payment\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\exchangerate\\exchangerates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\exchangerate\\exchangerates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\enterprise\\entities\\regime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\enterprise\\entities\\regime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\enterprise\\entities\\employeescompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\enterprise\\entities\\employeescompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\enterprise\\entities\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\enterprise\\entities\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.domain\\enterprise\\entities\\adrress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8124F80C-8DDB-4FDC-B4D9-518DD978C379}|Contable.Domain\\Contable.Domain.csproj|solutionrelative:contable.domain\\enterprise\\entities\\adrress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|c:\\users\\prince\\source\\repos\\proyectocontable\\contable.contractx\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80462D62-7B6D-475F-BEB9-520F957D65E7}|Contable.Contractx\\Contable.Contractx.csproj|solutionrelative:contable.contractx\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1203,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Program.cs",
+              "RelativeToolTip": "Contable.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:53:08.822Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnterpriseQueriesController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\Enterprise\\Queries\\EnterpriseQueriesController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\Enterprise\\Queries\\EnterpriseQueriesController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\Enterprise\\Queries\\EnterpriseQueriesController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\Enterprise\\Queries\\EnterpriseQueriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T22:44:03.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnterpriseCommandController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\Enterprise\\Commands\\EnterpriseCommandController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\Enterprise\\Commands\\EnterpriseCommandController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\Enterprise\\Commands\\EnterpriseCommandController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\Enterprise\\Commands\\EnterpriseCommandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T22:43:18.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Contable.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Contable.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:52:57.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMapping.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Services\\UserMapping.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Services\\UserMapping.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Services\\UserMapping.cs",
+              "RelativeToolTip": "Contable.Api\\Services\\UserMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:02:34.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserCommandController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\User\\Commands\\UserCommandController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\User\\Commands\\UserCommandController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\User\\Commands\\UserCommandController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\User\\Commands\\UserCommandController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA1wDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:25.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContextContable.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\ContextContable.cs",
+              "RelativeDocumentMoniker": "Contable.Infrastructure\\Persistence\\ContextContable.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\ContextContable.cs",
+              "RelativeToolTip": "Contable.Infrastructure\\Persistence\\ContextContable.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:01:46.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Contable.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:11:14.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserQueriesController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\User\\Queries\\UserQueriesController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\User\\Queries\\UserQueriesController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\User\\Queries\\UserQueriesController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\User\\Queries\\UserQueriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:52:28.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserQueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserQueryRepository.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserQueryRepository.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserQueryRepository.cs",
+              "RelativeToolTip": "Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:08:14.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserCommandRepository.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserCommandRepository.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserCommandRepository.cs",
+              "RelativeToolTip": "Contable.Application\\Services\\Interfaces\\Persistence\\UserRepository\\IUserCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:48:08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserQueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserQueryRepository.cs",
+              "RelativeDocumentMoniker": "Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserQueryRepository.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserQueryRepository.cs",
+              "RelativeToolTip": "Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:09:12.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserCommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserCommandRepository.cs",
+              "RelativeDocumentMoniker": "Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserCommandRepository.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserCommandRepository.cs",
+              "RelativeToolTip": "Contable.Infrastructure\\Persistence\\Repository\\UserRepository\\UserCommandRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:50:02.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "Contable.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T03:24:35.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Queries\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Users\\Queries\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Queries\\UserDTO.cs",
+              "RelativeToolTip": "Contable.Contractx\\Users\\Queries\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T21:19:27.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\User\\Users.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\User\\Users.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\User\\Users.cs",
+              "RelativeToolTip": "Contable.Domain\\User\\Users.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:11:29.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contable.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Contable.Domain.csproj",
+              "RelativeDocumentMoniker": "Contable.Domain\\Contable.Domain.csproj",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Contable.Domain.csproj",
+              "RelativeToolTip": "Contable.Domain\\Contable.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T03:26:04.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:39:46.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateByOneCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandHandler.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandHandler.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:17:50.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateByOneCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommand.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommand.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommand.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:17:09.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateByIdCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandValidator.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandValidator.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandValidator.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T00:43:00.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateByOneCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandValidator.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandValidator.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandValidator.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\UpdateByOne\\UpdateByOneCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:27:10.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateByIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandHandler.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T00:42:05.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\AuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Users\\AuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\AuthenticationResponse.cs",
+              "RelativeToolTip": "Contable.Contractx\\Users\\AuthenticationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:49:34.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthenticationResult.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Commom\\AuthenticationResult.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Commom\\AuthenticationResult.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Commom\\AuthenticationResult.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Commom\\AuthenticationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:14:01.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommand.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommand.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommand.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Update\\UpdateByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:16:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteByIdCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandValidator.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandValidator.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandValidator.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:55:11.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommand.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:12:26.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Commands\\UpdateDTO.cs",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Users\\Commands\\UpdateDTO.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Commands\\UpdateDTO.cs",
+              "RelativeToolTip": "Contable.Contractx\\Users\\Commands\\UpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T04:06:13.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Commands\\CreateDTO.cs",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Users\\Commands\\CreateDTO.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Users\\Commands\\CreateDTO.cs",
+              "RelativeToolTip": "Contable.Contractx\\Users\\Commands\\CreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T02:38:12.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommand.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommand.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommand.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:16:14.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Services\\Models\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Services\\Models\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Services\\Models\\ErrorResponse.cs",
+              "RelativeToolTip": "Contable.Api\\Services\\Models\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T02:14:39.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeleteByIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandHandler.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandHandler.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Delete\\DeleteByIdCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T03:09:27.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorsController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\ErrorsController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\ErrorsController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\ErrorsController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\ErrorsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:47:00.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommandValidator.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Command\\Add\\RegisterCommandValidator.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Command\\Add\\RegisterCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:29:36.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ValidationBehaviors.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Common\\Behaviors\\ValidationBehaviors.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Common\\Behaviors\\ValidationBehaviors.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Common\\Behaviors\\ValidationBehaviors.cs",
+              "RelativeToolTip": "Contable.Application\\Common\\Behaviors\\ValidationBehaviors.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T01:34:05.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:12.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:17.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:04:59.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Contable.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Contable.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Contable.Infrastructure\\Contable.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Infrastructure\\Contable.Infrastructure.csproj",
+              "RelativeToolTip": "Contable.Infrastructure\\Contable.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T04:37:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "StatementController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\StatementController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\StatementController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\StatementController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\StatementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:07.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Contable.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Contable.Application.csproj",
+              "RelativeDocumentMoniker": "Contable.Application\\Contable.Application.csproj",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Contable.Application.csproj",
+              "RelativeToolTip": "Contable.Application\\Contable.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T03:25:07.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Contable.Contractx.csproj",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Contable.Contractx.csproj",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Contable.Contractx.csproj",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Contable.Contractx.csproj",
+              "RelativeToolTip": "Contable.Contractx\\Contable.Contractx.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T05:02:36.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\GetAll\\GetAllQuery.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Query\\GetAll\\GetAllQuery.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\GetAll\\GetAllQuery.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Query\\GetAll\\GetAllQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:17:49.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\GetID\\GetByIdQuery.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Query\\GetID\\GetByIdQuery.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\GetID\\GetByIdQuery.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Query\\GetID\\GetByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:18:16.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginQuery.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\Login\\LoginQuery.cs",
+              "RelativeDocumentMoniker": "Contable.Application\\Authentication\\Query\\Login\\LoginQuery.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Application\\Authentication\\Query\\Login\\LoginQuery.cs",
+              "RelativeToolTip": "Contable.Application\\Authentication\\Query\\Login\\LoginQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:12:53.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ExChangeRateController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\ExChangeRateController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\ExChangeRateController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\ExChangeRateController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\ExChangeRateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:04:51.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DateTaxController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\DateTaxController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\DateTaxController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\DateTaxController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\DateTaxController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:04:42.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegimeController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\RegimeController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\EntitiesController\\RegimeController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\RegimeController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\EntitiesController\\RegimeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:06:08.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmployeesCompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\EmployeesCompanyController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\EntitiesController\\EmployeesCompanyController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\EmployeesCompanyController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\EntitiesController\\EmployeesCompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:06:04.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\EntitiesController\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\ContactsController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\EntitiesController\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:58.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdressController.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\AdressController.cs",
+              "RelativeDocumentMoniker": "Contable.Api\\Controllers\\EntitiesController\\AdressController.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Api\\Controllers\\EntitiesController\\AdressController.cs",
+              "RelativeToolTip": "Contable.Api\\Controllers\\EntitiesController\\AdressController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:05:53.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Transaction\\Transactions.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Transaction\\Transactions.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Transaction\\Transactions.cs",
+              "RelativeToolTip": "Contable.Domain\\Transaction\\Transactions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:14:11.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Statements.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Statement\\Statements.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Statement\\Statements.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Statement\\Statements.cs",
+              "RelativeToolTip": "Contable.Domain\\Statement\\Statements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:16:57.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Payment\\Payments.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Payment\\Payments.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Payment\\Payments.cs",
+              "RelativeToolTip": "Contable.Domain\\Payment\\Payments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:17:32.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ExchangeRates.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\ExchangeRate\\ExchangeRates.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\ExchangeRate\\ExchangeRates.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\ExchangeRate\\ExchangeRates.cs",
+              "RelativeToolTip": "Contable.Domain\\ExchangeRate\\ExchangeRates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:18:53.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Enterprises.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Enterprises.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Enterprise\\Enterprises.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Enterprises.cs",
+              "RelativeToolTip": "Contable.Domain\\Enterprise\\Enterprises.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:19:27.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DateTaxReturns.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\DateTaxReturn\\DateTaxReturns.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\DateTaxReturn\\DateTaxReturns.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\DateTaxReturn\\DateTaxReturns.cs",
+              "RelativeToolTip": "Contable.Domain\\DateTaxReturn\\DateTaxReturns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:22:58.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Task\\Tasks.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Task\\Tasks.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Task\\Tasks.cs",
+              "RelativeToolTip": "Contable.Domain\\Task\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:14:47.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Regime.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Regime.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Enterprise\\Entities\\Regime.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Regime.cs",
+              "RelativeToolTip": "Contable.Domain\\Enterprise\\Entities\\Regime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:21:37.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EmployeesCompany.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\EmployeesCompany.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Enterprise\\Entities\\EmployeesCompany.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\EmployeesCompany.cs",
+              "RelativeToolTip": "Contable.Domain\\Enterprise\\Entities\\EmployeesCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:21:51.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Contacts.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Contacts.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Enterprise\\Entities\\Contacts.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Contacts.cs",
+              "RelativeToolTip": "Contable.Domain\\Enterprise\\Entities\\Contacts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:22:21.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Adrress.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Adrress.cs",
+              "RelativeDocumentMoniker": "Contable.Domain\\Enterprise\\Entities\\Adrress.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Domain\\Enterprise\\Entities\\Adrress.cs",
+              "RelativeToolTip": "Contable.Domain\\Enterprise\\Entities\\Adrress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:20:21.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Class1.cs",
+              "RelativeDocumentMoniker": "Contable.Contractx\\Class1.cs",
+              "ToolTip": "C:\\Users\\PRINCE\\source\\repos\\ProyectoContable\\Contable.Contractx\\Class1.cs",
+              "RelativeToolTip": "Contable.Contractx\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T03:24:09.424Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1047,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\bin\Debug\net8.0\Contable.Domain.deps.json
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\bin\Debug\net8.0\Contable.Domain.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\bin\Debug\net8.0\Contable.Domain.pdb
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.csproj.AssemblyReference.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.AssemblyInfoInputs.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.AssemblyInfo.cs
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\refint\Contable.Domain.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.pdb
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\ref\Contable.Domain.dll

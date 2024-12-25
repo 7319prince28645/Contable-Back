@@ -1,0 +1,15 @@
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\bin\Debug\net8.0\Contable.Application.deps.json
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\bin\Debug\net8.0\Contable.Application.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\bin\Debug\net8.0\Contable.Application.pdb
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\bin\Debug\net8.0\Contable.Domain.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\bin\Debug\net8.0\Contable.Domain.pdb
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.csproj.AssemblyReference.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.AssemblyInfoInputs.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.AssemblyInfo.cs
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.csproj.CoreCompileInputs.cache
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.081965D2.Up2Date
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\refint\Contable.Application.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\Contable.Application.pdb
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Application\obj\Debug\net8.0\ref\Contable.Application.dll

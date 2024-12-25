@@ -1,0 +1,156 @@
+[
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Commands.UserCommandController",
+    "Method": "AddUser",
+    "RelativePath": "api/UserCommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDTO",
+        "Type": "Contable.Contractx.Users.Commands.CreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Commands.UserCommandController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/UserCommand/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Commands.UserCommandController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/UserCommand/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDTO",
+        "Type": "Contable.Contractx.Users.Commands.UpdateDTO",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Commands.UserCommandController",
+    "Method": "UpdateUserPatch",
+    "RelativePath": "api/UserCommand/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDTO",
+        "Type": "Contable.Contractx.Users.Commands.UpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Queries.UserQueriesController",
+    "Method": "GetUsers",
+    "RelativePath": "api/UserQueries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Contable.Contractx.Users.Queries.UserDTO, Contable.Contractx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.ErrorController",
+    "Method": "HandleError",
+    "RelativePath": "error",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
