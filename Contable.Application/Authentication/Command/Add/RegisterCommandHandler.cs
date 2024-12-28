@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Contable.Application.Authentication.Command.Add;
 
-public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthenticationResult>
+public class RegisterCommandHandler : IRequestHandler<RegisterCommand, AuthenticationResultToken>
 {
     private readonly IUserCommandRepository _userRepository;
 
@@ -14,11 +14,11 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, Authentic
         _userRepository = userRepository;
     }
 
-    public async Task<AuthenticationResult> Handle(RegisterCommand request, CancellationToken cancellationToken)
+    public async Task<AuthenticationResultToken> Handle(RegisterCommand request, CancellationToken cancellationToken)
     {
        
-        await _userRepository.AddAsync(request.Users);
-        return new AuthenticationResult(request.Users, "Token");
+        var result = await _userRepository.AddAsync(request.Users);
+        return new AuthenticationResultToken(result, "Token");
 
     }
 }

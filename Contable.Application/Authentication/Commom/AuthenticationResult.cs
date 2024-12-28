@@ -2,4 +2,4 @@
 
 namespace Contable.Application.Authentication.Commom;
 
-public record AuthenticationResult(Users Users, string Token);
+public record AuthenticationResult(Users User);

@@ -22,6 +22,61 @@ namespace Contable.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Contable.Domain.Enterprise.Enterprises", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CompanyName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("ContactsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("DateTaxReturnsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("EmployeesCompanyId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("PaymentsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("Planilla")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Ruc")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("StatementsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("TasksId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("TransactionsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContactsId");
+
+                    b.HasIndex("DateTaxReturnsId");
+
+                    b.HasIndex("EmployeesCompanyId");
+
+                    b.HasIndex("PaymentsId");
+
+                    b.HasIndex("StatementsId");
+
+                    b.HasIndex("TasksId");
+
+                    b.HasIndex("TransactionsId");
+
+                    b.ToTable("Enterprises");
+                });
+
             modelBuilder.Entity("Contable.Domain.Enterprise.Entities.Adrress", b =>
                 {
                     b.Property<Guid>("Id")
@@ -62,6 +117,86 @@ namespace Contable.Infrastructure.Migrations
                         .IsUnique();
 
                     b.ToTable("Adrress");
+                });
+
+            modelBuilder.Entity("Contable.Domain.Enterprise.Entities.Contacts", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("Contable.Domain.Enterprise.Entities.EmployeesCompany", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("DocumentType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumberDocument")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ResignationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Salary")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EmployeesCompany");
+                });
+
+            modelBuilder.Entity("Contable.Domain.Enterprise.Entities.Regime", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("EnterprisesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float?>("PercentageMonth")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EnterprisesId")
+                        .IsUnique();
+
+                    b.ToTable("Regime");
                 });
 
             modelBuilder.Entity("Contable.Domain.Task.Tasks", b =>
@@ -167,141 +302,6 @@ namespace Contable.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DateTaxReturns");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Enterprises", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid?>("ContactsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("DateTaxReturnsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("EmployeesCompanyId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("PaymentsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<bool>("Planilla")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Ruc")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid?>("StatementsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("TasksId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("TransactionsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ContactsId");
-
-                    b.HasIndex("DateTaxReturnsId");
-
-                    b.HasIndex("EmployeesCompanyId");
-
-                    b.HasIndex("PaymentsId");
-
-                    b.HasIndex("StatementsId");
-
-                    b.HasIndex("TasksId");
-
-                    b.HasIndex("TransactionsId");
-
-                    b.ToTable("Enterprises");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Entities.Contacts", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Role")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Contacts");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Entities.EmployeesCompany", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<bool>("Active")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("DocumentType")
-                        .HasColumnType("int");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("NumberDocument")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Position")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ResignationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Salary")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EmployeesCompany");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Entities.Regime", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("EnterprisesId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<float?>("PercentageMonth")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EnterprisesId")
-                        .IsUnique();
-
-                    b.ToTable("Regime");
                 });
 
             modelBuilder.Entity("Domain.ExchangeRate.ExchangeRates", b =>
@@ -426,11 +426,65 @@ namespace Contable.Infrastructure.Migrations
                     b.ToTable("EnterprisesUsers");
                 });
 
+            modelBuilder.Entity("Contable.Domain.Enterprise.Enterprises", b =>
+                {
+                    b.HasOne("Contable.Domain.Enterprise.Entities.Contacts", "Contacts")
+                        .WithMany()
+                        .HasForeignKey("ContactsId");
+
+                    b.HasOne("Domain.DateTaxReturn.DateTaxReturns", "DateTaxReturns")
+                        .WithMany()
+                        .HasForeignKey("DateTaxReturnsId");
+
+                    b.HasOne("Contable.Domain.Enterprise.Entities.EmployeesCompany", "EmployeesCompany")
+                        .WithMany()
+                        .HasForeignKey("EmployeesCompanyId");
+
+                    b.HasOne("Domain.Payment.Payments", "Payments")
+                        .WithMany()
+                        .HasForeignKey("PaymentsId");
+
+                    b.HasOne("Domain.Statement.Statements", "Statements")
+                        .WithMany()
+                        .HasForeignKey("StatementsId");
+
+                    b.HasOne("Contable.Domain.Task.Tasks", "Tasks")
+                        .WithMany()
+                        .HasForeignKey("TasksId");
+
+                    b.HasOne("Domain.Transaction.Transactions", "Transactions")
+                        .WithMany()
+                        .HasForeignKey("TransactionsId");
+
+                    b.Navigation("Contacts");
+
+                    b.Navigation("DateTaxReturns");
+
+                    b.Navigation("EmployeesCompany");
+
+                    b.Navigation("Payments");
+
+                    b.Navigation("Statements");
+
+                    b.Navigation("Tasks");
+
+                    b.Navigation("Transactions");
+                });
+
             modelBuilder.Entity("Contable.Domain.Enterprise.Entities.Adrress", b =>
                 {
-                    b.HasOne("Domain.Enterprise.Enterprises", null)
+                    b.HasOne("Contable.Domain.Enterprise.Enterprises", null)
                         .WithOne("Address")
                         .HasForeignKey("Contable.Domain.Enterprise.Entities.Adrress", "EnterprisesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Contable.Domain.Enterprise.Entities.Regime", b =>
+                {
+                    b.HasOne("Contable.Domain.Enterprise.Enterprises", null)
+                        .WithOne("Regime")
+                        .HasForeignKey("Contable.Domain.Enterprise.Entities.Regime", "EnterprisesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -465,62 +519,6 @@ namespace Contable.Infrastructure.Migrations
                     b.Navigation("Transactions");
                 });
 
-            modelBuilder.Entity("Domain.Enterprise.Enterprises", b =>
-                {
-                    b.HasOne("Domain.Enterprise.Entities.Contacts", "Contacts")
-                        .WithMany()
-                        .HasForeignKey("ContactsId");
-
-                    b.HasOne("Domain.DateTaxReturn.DateTaxReturns", "DateTaxReturns")
-                        .WithMany()
-                        .HasForeignKey("DateTaxReturnsId");
-
-                    b.HasOne("Domain.Enterprise.Entities.EmployeesCompany", "EmployeesCompany")
-                        .WithMany()
-                        .HasForeignKey("EmployeesCompanyId");
-
-                    b.HasOne("Domain.Payment.Payments", "Payments")
-                        .WithMany()
-                        .HasForeignKey("PaymentsId");
-
-                    b.HasOne("Domain.Statement.Statements", "Statements")
-                        .WithMany()
-                        .HasForeignKey("StatementsId");
-
-                    b.HasOne("Contable.Domain.Task.Tasks", "Tasks")
-                        .WithMany()
-                        .HasForeignKey("TasksId");
-
-                    b.HasOne("Domain.Transaction.Transactions", "Transactions")
-                        .WithMany()
-                        .HasForeignKey("TransactionsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Contacts");
-
-                    b.Navigation("DateTaxReturns");
-
-                    b.Navigation("EmployeesCompany");
-
-                    b.Navigation("Payments");
-
-                    b.Navigation("Statements");
-
-                    b.Navigation("Tasks");
-
-                    b.Navigation("Transactions");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Entities.Regime", b =>
-                {
-                    b.HasOne("Domain.Enterprise.Enterprises", null)
-                        .WithOne("Regime")
-                        .HasForeignKey("Domain.Enterprise.Entities.Regime", "EnterprisesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Domain.Statement.Statements", b =>
                 {
                     b.HasOne("Domain.DateTaxReturn.DateTaxReturns", null)
@@ -536,7 +534,7 @@ namespace Contable.Infrastructure.Migrations
 
             modelBuilder.Entity("EnterprisesUsers", b =>
                 {
-                    b.HasOne("Domain.Enterprise.Enterprises", null)
+                    b.HasOne("Contable.Domain.Enterprise.Enterprises", null)
                         .WithMany()
                         .HasForeignKey("EnterprisesId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -549,16 +547,16 @@ namespace Contable.Infrastructure.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Domain.DateTaxReturn.DateTaxReturns", b =>
-                {
-                    b.Navigation("Statements");
-                });
-
-            modelBuilder.Entity("Domain.Enterprise.Enterprises", b =>
+            modelBuilder.Entity("Contable.Domain.Enterprise.Enterprises", b =>
                 {
                     b.Navigation("Address");
 
                     b.Navigation("Regime");
+                });
+
+            modelBuilder.Entity("Domain.DateTaxReturn.DateTaxReturns", b =>
+                {
+                    b.Navigation("Statements");
                 });
 #pragma warning restore 612, 618
         }

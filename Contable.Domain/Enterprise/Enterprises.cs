@@ -23,7 +23,7 @@ public class Enterprises
     public Guid? TasksId { get; set; }
     public Guid? ContactsId { get; set; }
     public Guid? EmployeesCompanyId { get; set; }
-    public Guid TransactionsId { get; set; }
+    public Guid? TransactionsId { get; set; }
     public Guid? StatementsId { get; set; }
     public Guid? DateTaxReturnsId { get; set; }
 

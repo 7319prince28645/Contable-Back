@@ -10,3 +10,4 @@ C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\C
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\refint\Contable.Domain.dll
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.pdb
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\ref\Contable.Domain.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Domain\obj\Debug\net8.0\Contable.Domain.sourcelink.json

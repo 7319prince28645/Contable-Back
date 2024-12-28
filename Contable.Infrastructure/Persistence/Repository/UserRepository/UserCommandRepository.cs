@@ -1,5 +1,4 @@
-﻿using Azure.Core;
-using Contable.Application.Services.Interfaces.Persistence.UserRepository;
+﻿using Contable.Application.Services.Interfaces.Persistence.UserRepository;
 using Contable.Domain.User;
 using Microsoft.EntityFrameworkCore;
 

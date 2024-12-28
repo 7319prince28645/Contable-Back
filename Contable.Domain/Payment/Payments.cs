@@ -5,10 +5,10 @@ namespace Domain.Payment;
 public sealed class Payments 
 {
     public Guid Id { get; init; }
-    public float Amount { get; private set; }
-    public float MissingAmount { get; private set; }
-    public Status Status { get; private set; }
-    public DateTime? CreatedAt { get; private set; }
-    public DateTime? UpdatedAt { get; private set; }
+    public float Amount { get;  set; }
+    public float MissingAmount { get;  set; }
+    public Status Status { get;  set; }
+    public DateTime? CreatedAt { get;  set; } = DateTime.Now;
+    public DateTime? UpdatedAt { get;  set; }
 
 }

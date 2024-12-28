@@ -14,6 +14,7 @@ namespace Contable.Api.Controllers.User.Commands;
 
 [Route("api/[controller]")]
 [ApiController]
+[ApiExplorerSettings(GroupName = "Commands")] 
 public class UserCommandController : ControllerBase
 {
     private readonly ISender _mediator;

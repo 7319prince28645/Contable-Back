@@ -174,7 +174,6 @@ C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\stat
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Contable.Api.props
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Contable.Api.props
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\Contable.63DD9449.Up2Date
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\Contable.Api.dll
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\refint\Contable.Api.dll
@@ -186,3 +185,5 @@ C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\bin\Debug\net8.0\Flue
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\Contable.Api.sourcelink.json
+C:\Users\PRINCE\source\repos\ProyectoContable\Contable.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

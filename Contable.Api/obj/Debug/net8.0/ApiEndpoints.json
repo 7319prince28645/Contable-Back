@@ -1,5 +1,193 @@
 [
   {
+    "ContainingType": "Contable.Api.Controllers.Enterprise.Commands.EnterpriseCommandController",
+    "Method": "AddEnterprise",
+    "RelativePath": "api/EnterpriseCommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addEnterpriseDTO",
+        "Type": "Contable.Contractx.Enterprise.Commands.AddEnterpriseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Enterprise.Commands.EnterpriseCommandController",
+    "Method": "DeleteEnterprise",
+    "RelativePath": "api/EnterpriseCommand/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Enterprise.Commands.EnterpriseCommandController",
+    "Method": "UpdateEnterprise",
+    "RelativePath": "api/EnterpriseCommand/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEnterpriseDTO",
+        "Type": "Contable.Contractx.Enterprise.Commands.AddEnterpriseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Enterprise.Commands.EnterpriseCommandController",
+    "Method": "UpdateEnterpriseByOne",
+    "RelativePath": "api/EnterpriseCommand/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEnterpriseByOneDTO",
+        "Type": "Contable.Contractx.Enterprise.Commands.AddEnterpriseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Enterprise.Queries.EnterpriseQueriesController",
+    "Method": "GetEnterprises",
+    "RelativePath": "api/EnterpriseQueries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Contable.Domain.Enterprise.Enterprises, Contable.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Payment.Commands.PaymentCommandController",
+    "Method": "AddPayment",
+    "RelativePath": "api/PaymentCommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Contable.Contractx.Payment.Command.AddPayment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Payment.Commands.PaymentCommandController",
+    "Method": "UpdatePayment",
+    "RelativePath": "api/PaymentCommand/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Contable.Contractx.Payment.Command.AddPayment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Payment.Commands.PaymentCommandController",
+    "Method": "DeletePayment",
+    "RelativePath": "api/PaymentCommand/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Payment.Commands.PaymentCommandController",
+    "Method": "UpdatePaymentByOne",
+    "RelativePath": "api/PaymentCommand/{Id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Contable.Contractx.Payment.Command.AddPayment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.Payment.Queries.PaymentQueryController",
+    "Method": "GetPayments",
+    "RelativePath": "api/PaymentQuery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Domain.Payment.Payments, Contable.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Contable.Api.Controllers.User.Commands.UserCommandController",
     "Method": "AddUser",
     "RelativePath": "api/UserCommand",
@@ -83,7 +271,85 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Contable.Contractx.Users.Queries.UserDTO, Contable.Contractx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Contable.Domain.User.Users, Contable.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Queries.UserQueriesController",
+    "Method": "GetUser",
+    "RelativePath": "api/UserQueries/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Contable.Contractx.Users.Queries.UserDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Queries.UserQueriesController",
+    "Method": "GetUserPayment",
+    "RelativePath": "api/UserQueries/{id}/payment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Contable.Domain.User.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Contable.Api.Controllers.User.Queries.UserQueriesController",
+    "Method": "GetUserByEmail",
+    "RelativePath": "api/UserQueries/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Contable.Contractx.Users.Queries.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
