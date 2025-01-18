@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Contable.Application.Payment.Command.Add;
 using Contable.Contractx.Payment.Command;
 using Domain.Payment;
 

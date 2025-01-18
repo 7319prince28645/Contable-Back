@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Transaction.Command.Update
+namespace Contable.Application.Transaction.Command.Update;
+
+public class TransactionUpdateCommandValidator : AbstractValidator<TransactionUpdateCommand>
 {
-    internal class TransactionUpdateCommandValidator
+    public TransactionUpdateCommandValidator()
     {
+        RuleFor(x => x.Id)
+            .NotNull()
+            .WithMessage("Id is required");
+
+
+        RuleFor(x => x.Transactions)
+            .NotNull()
+            .WithMessage("Transaction is required");
     }
 }

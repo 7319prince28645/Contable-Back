@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Statement.Command.Add
+namespace Contable.Application.Statement.Command.Add;
+
+public class StatementAddCommandValidator : AbstractValidator<StatementAddCommand>
 {
-    internal class StatementAddCommandValidator
+    public StatementAddCommandValidator()
     {
+        RuleFor(x => x.Statements)
+            .NotNull()
+            .WithMessage("Statement is required");
     }
 }

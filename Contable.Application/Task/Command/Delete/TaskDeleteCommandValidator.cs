@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Transaction.Command.Delete;
+using FluentValidation;
 
-namespace Contable.Application.Task.Command.Delete
+namespace Contable.Application.Task.Command.Delete;
+
+public class TaskDeleteCommandValidator : AbstractValidator<TaskDeleteCommand>
 {
-    internal class TaskDeleteCommandValidator
+    public TaskDeleteCommandValidator()
     {
+        RuleFor(x => x.Id)
+            .NotNull()
+            .WithMessage("Id is required");
     }
 }

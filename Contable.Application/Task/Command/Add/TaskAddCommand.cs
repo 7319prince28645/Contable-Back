@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Transaction.Common;
+using Contable.Domain.Task;
+using MediatR;
 
-namespace Contable.Application.Transaction.Command.Add
-{
-    internal class DateTaxReturaaanAddCommand
-    {
-    }
-}
+namespace Contable.Application.Task.Command.Add;
+
+public record TaskAddCommand(Tasks Tasks) : IRequest<TaskResult>;

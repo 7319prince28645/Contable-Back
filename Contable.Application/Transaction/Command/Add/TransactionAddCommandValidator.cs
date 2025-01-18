@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Transaction.Command.Add
+namespace Contable.Application.Transaction.Command.Add;
+
+public class TransactionAddCommandValidator : AbstractValidator<TransactionAddCommand>
 {
-    internal class TransactionAddCommandValidator
+    public TransactionAddCommandValidator()
     {
+        RuleFor(x => x.Transactions)
+            .NotNull()
+            .WithMessage("Transaction is required");
     }
 }

@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Task.Command.Add
+namespace Contable.Application.Task.Command.Add;
+
+public class TaskAddCommandValidator : AbstractValidator<TaskAddCommand>
 {
-    internal class TaskAddCommandValidator
+    public TaskAddCommandValidator()
     {
+        RuleFor(x => x.Tasks)
+            .NotNull()
+            .WithMessage("Task is required");
     }
 }

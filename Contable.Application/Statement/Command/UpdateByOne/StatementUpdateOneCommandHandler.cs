@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Services.Interfaces.Persistence.StatementRepository;
+using Contable.Application.Statement.Common;
+using MediatR;
 
-namespace Contable.Application.Statement.Command.UpdateByOne
+namespace Contable.Application.Statement.Command.UpdateByOne;
+
+public class StatementUpdateOneCommandHandler : IRequestHandler<StatementUpdateOneCommand, StatementResult>
 {
-    internal class StatementUpdateOneCommandHandler
+    private readonly IStatementCommandRepository _statementRepository;
+
+    public StatementUpdateOneCommandHandler(IStatementCommandRepository statementRepository)
     {
+        _statementRepository = statementRepository;
     }
+
+    public async Task<StatementResult> Handle(StatementUpdateOneCommand request, CancellationToken cancellationToken)
+    {
+        var result = await _statementRepository.UpdateByOneStatement(request.Id, request.Statements);
+        return new StatementResult(result);
+    }
+
 }

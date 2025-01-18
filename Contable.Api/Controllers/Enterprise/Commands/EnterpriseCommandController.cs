@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Contable.Application.Enterprise.Command.Add;
-using Contable.Application.Enterprise.Command.Update;
-using Contable.Application.Enterprise.Command.UpdateByOne;
-using Contable.Application.Enterprise.Commands.Detele;
+using Contable.Application.EntitiesEnterprise.Enterprise.Command.Add;
+using Contable.Application.EntitiesEnterprise.Enterprise.Command.Detele;
+using Contable.Application.EntitiesEnterprise.Enterprise.Command.Update;
+using Contable.Application.EntitiesEnterprise.Enterprise.Command.UpdateByOne;
 using Contable.Contractx.Enterprise.Commands;
 using Contable.Domain.Enterprise;
 using MediatR;

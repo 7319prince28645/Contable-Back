@@ -23,6 +23,7 @@ var builder = WebApplication.CreateBuilder(args);
             options.SwaggerDoc("Queries", new Microsoft.OpenApi.Models.OpenApiInfo
             {
                 Title = "Contable API - Queries",
+                Title = "Contable API - Queries",
                 Version = "v1",
                 Description = "APIs for Get and List"
             });

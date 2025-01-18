@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Services.Interfaces.Persistence.TaskRepository;
+using Contable.Application.Transaction.Command.Delete;
+using MediatR;
 
-namespace Contable.Application.Task.Command.Delete
+namespace Contable.Application.Task.Command.Delete;
+
+public class TaskDeleteCommandHandler : IRequestHandler<TaskDeleteCommand, string>
 {
-    internal class TaskDeleteCommandHandler
+    private readonly ITaskCommandRepository _taskCommandRepository;
+
+    public TaskDeleteCommandHandler(ITaskCommandRepository taskCommandRepository)
     {
+        _taskCommandRepository = taskCommandRepository;
+    }
+
+    public async Task<string> Handle(TaskDeleteCommand request, CancellationToken cancellationToken)
+    {
+        return await _taskCommandRepository.DeleteTask(request.Id);
+        
     }
 }

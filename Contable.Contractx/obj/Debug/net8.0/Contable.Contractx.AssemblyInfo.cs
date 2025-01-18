@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contable.Contractx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8d77ac6882c009997fb231d0de8babd933379b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b66c45ef35c25b0155e496a402903abc920dd59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contable.Contractx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contable.Contractx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

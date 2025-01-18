@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Transaction.Common;
+using Domain.Transaction;
+using MediatR;
 
-namespace Contable.Application.Transaction.Command.Update
-{
-    internal class DateTaxReturnUpdateCommandbbbbbbbbbb
-    {
-    }
-}
+namespace Contable.Application.Transaction.Command.Update;
+
+public record TransactionUpdateCommand(Guid Id, Transactions Transactions) : IRequest<TransactionResult>;

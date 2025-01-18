@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Task.Command.UpdateByOne
+namespace Contable.Application.Task.Command.UpdateByOne;
+
+public class TaskUpdateOneCommandValidator : AbstractValidator<TaskUpdateOneCommand>
 {
-    internal class TaskUpdateOneCommandValidator
+    public TaskUpdateOneCommandValidator()
     {
+        RuleFor(x => x.Id)
+            .NotNull()
+            .WithMessage("Id is required");
+
+        RuleFor(x => x.Tasks)
+            .NotNull()
+            .WithMessage("Task is required");
     }
 }

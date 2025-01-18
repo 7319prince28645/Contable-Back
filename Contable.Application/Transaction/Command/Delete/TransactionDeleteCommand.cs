@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
-namespace Contable.Application.Transaction.Command.Delete
-{
-    internal class xxxxDateTaxReturnDeleteCommand
-    {
-    }
-}
+namespace Contable.Application.Transaction.Command.Delete;
+
+public record TransactionDeleteCommand(Guid Id) : IRequest<string>;

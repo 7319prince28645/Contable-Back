@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
 
-namespace Contable.Application.Statement.Command.Delete
+namespace Contable.Application.Statement.Command.Delete;
+
+public class StatementDeleteCommandValidator : AbstractValidator<StatementDeleteCommand>
 {
-    internal class StatementDeleteCommandValidator
+    public StatementDeleteCommandValidator()
     {
+        RuleFor(x => x.Id).NotEmpty();
     }
 }

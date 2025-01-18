@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Transaction.Command.Update;
+using FluentValidation;
 
-namespace Contable.Application.Statement.Command.Update
+namespace Contable.Application.Statement.Command.Update;
+
+public class StatementUpdateCommandValidator : AbstractValidator<StatementUpdateCommand>
 {
-    internal class StatementUpdateCommandValidator
+    public StatementUpdateCommandValidator()
     {
+        RuleFor(x => x.Id).NotEmpty();
+        RuleFor(x => x.Statements).NotEmpty();
     }
 }

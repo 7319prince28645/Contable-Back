@@ -65,7 +65,6 @@ public class UserCommandRepository : IUserCommandRepository
         userToUpdate.DatePlanilla = users.DatePlanilla;
 
 
-        _context.Users.Update(userToUpdate);
         await _context.SaveChangesAsync();
         return userToUpdate;
     }
@@ -102,7 +101,6 @@ public class UserCommandRepository : IUserCommandRepository
         if (users.DatePlanilla != null)
             userToUpdate.DatePlanilla = users.DatePlanilla;
 
-        _context.Users.Update(userToUpdate);
 
         await _context.SaveChangesAsync();
 

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Contable.Application.Enterprise.Command.Add;
+using Contable.Application.EntitiesEnterprise.Enterprise.Command.Add;
 using Contable.Contractx.Enterprise.Commands;
 using Contable.Domain.Enterprise;
 

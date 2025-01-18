@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Contable.Application.Statement.Common;
+using Domain.Statement;
+using MediatR;
 
-namespace Contable.Application.Transaction.Command.UpdateByOne
-{
-    internal class DateTaxaaaReturnUpdateOnaseCommand
-    {
-    }
-}
+namespace Contable.Application.Statement.Command.UpdateByOne;
+
+public record StatementUpdateOneCommand(Guid Id, Statements Statements) : IRequest<StatementResult>;

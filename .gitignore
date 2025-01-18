@@ -1,0 +1,23 @@
+# Carpetas generadas por Visual Studio
+.vs/
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos de configuración local
+*.user
+*.suo
+*.vcxproj.user
+*.sln.docstates
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Configuración de NuGet
+*.nupkg
+project.lock.json
+project.assets.json
